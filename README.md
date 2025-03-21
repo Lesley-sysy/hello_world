@@ -11,3 +11,12 @@ Q1.md
 
 5 Recursive functions follow the master theorem as for recursive algorithms, complexity is determined using recurrence relations ie merge sort follows T(n) = 2T(n/2) + O(n), which simplifies to O(n log n)
 
+
+
+Q2.md
+
+Memory Allocation; Arrays have contiguous memory allocation which is fixed in size while linked lists have dynamic memory allocation which can grow as it is needed
+
+Performance; Arrays have fast accesss via indexing O(1), but resizing them is costly while linked lists have have slower access O(n), but efficient resizing
+
+Insertion and deletion; Arrays are costly as shifting elements is required O(n) while linked lists are efficient at head or tail O(1), O(n) elsewhere 
